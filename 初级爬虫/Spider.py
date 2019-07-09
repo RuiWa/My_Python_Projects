@@ -5,13 +5,13 @@ import re
 url = 'https://www.duquanben.com/xiaoshuo/5/5823/'
 
 # 模拟浏览器发送http请求
-respone = requests.get(url)
+response = requests.get(url)
 
 # 确定网页编码方式
-respone.encoding = ('gbk')
+response.encoding = ('gbk')
 
 # 目标小说的网页源码
-html = respone.text
+html = response.text
 
 # 小说名字，后面的[0]表示列表
 title = re.findall(r'<meta property="og:title" content="(.*?)"/>', html)[0]
@@ -30,9 +30,9 @@ for chapter_info in chapter_info_list:
     chapter_url = 'https://www.duquanben.com/xiaoshuo/5/5823/%s' % chapter_url
     
     # 下载每一章的内容
-    chapter_respone = requests.get(chapter_url)
-    chapter_respone.encoding = 'gbk'
-    chapter_html = chapter_respone.text
+    chapter_response = requests.get(chapter_url)
+    chapter_response.encoding = 'gbk'
+    chapter_html = chapter_response.text
     chapter_content = re.findall(r'<div id="htmlContent" class="contentbox">(.*?)<div class="ad00"><script>show_style\(\)', chapter_html, re.S)[0]
     
     # 清洗内容（去掉空格之类的）
