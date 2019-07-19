@@ -40,3 +40,4 @@
 - 1.相信经历过论文查重的小伙伴会对这个项目感兴趣吧！检测两篇文档的相似性！
 - 2.相关论文：[Winnowing: Local Algorithms for Document Fingerprinting](https://dl.acm.org/citation.cfm?id=872770)
 - 3.相关博文墙裂推荐：[基于K-gram的winnowing特征提取剽窃查重检测技术](https://blog.csdn.net/chichoxian/article/details/53115067)
+- 4.代码中仅使用了检测阈值为9，5-gram的情况，关于这两个参数以及Base参数的值的应该如何科学的设定还有待学习。
