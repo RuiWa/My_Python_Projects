@@ -47,6 +47,6 @@
 - 1.安装：<br>
     [结巴分词器](https://github.com/fxsjy/jieba/)：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba<br>
     [词云](https://amueller.github.io/word_cloud/)：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple wordcloud
-- 2.通过获取大量的新闻标题，创建词云，让人一目了然众多新闻中的热点词汇
+- 2.通过获取大量的新闻标题，创建词云，让人一目了然众多新闻中的热点词汇<br>
 ![](https://github.com/RuiWa/My_Python_Projects/blob/master/%E5%8A%A8%E6%80%81%E6%96%B0%E9%97%BB%E6%A0%87%E9%A2%98%E7%83%AD%E7%82%B9%E6%8C%96%E6%8E%98/results/wordcloud.jpg)
 
