@@ -45,7 +45,7 @@
 ### 项目5--动态新闻标题热点挖掘(2019-07)
 - 说明：
 - 1.安装[结巴分词器](https://github.com/fxsjy/jieba/)
-    @ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba
+    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba
     [词云](https://amueller.github.io/word_cloud/)
-    @pip install -i https://pypi.tuna.tsinghua.edu.cn/simple wordcloud
+    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple wordcloud
 - 2.通过获取大量的新闻标题，创建词云，让人一目了然众多新闻中的热点词汇
