@@ -27,6 +27,7 @@ def generate_n_gram(content, n):
 def rolling_hashing(n_gram, Base, n): 
     """
     计算分片的哈希值，n与n_gram中的n相同
+    Base：确定值
     """
     hashlist = []
     hash = 0
@@ -69,7 +70,7 @@ def winnowing(hashlist, t, n):
     
 def comparison(fingerprint_1, fingerprint_2): 
     """
-    比较个字典的相似性
+    比较两个字典的相似性
     """
     count = 0
     size = min(len(fingerprint_1),len(fingerprint_2)) 
