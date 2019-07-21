@@ -12,7 +12,7 @@ def get_web_content(url):
     return html
 
 def analyse_web(html):
-    #将数据转为json格式
+    #将json格式转为Python格式
     data = json.loads(html)
     #得到图片的url
     photos = jsonpath.jsonpath(data, '$..path')
