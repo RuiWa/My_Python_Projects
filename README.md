@@ -50,3 +50,8 @@
 - 2.通过获取大量的新闻标题，创建词云，让人一目了然众多新闻中的热点词汇<br>
 ![](https://github.com/RuiWa/My_Python_Projects/blob/master/%E5%8A%A8%E6%80%81%E6%96%B0%E9%97%BB%E6%A0%87%E9%A2%98%E7%83%AD%E7%82%B9%E6%8C%96%E6%8E%98/results/wordcloud.jpg)
 
+### 项目6--DICOM文件信息的读取(2019-09)
+- 说明：
+- 1.DICOM（Digital Imaging and Communications in Medicine）即医学数字成像和通信，是医学图像和相关信息的国际标准（ISO 12052）。 DICOM文件是指按照DICOM标准而存储的医学文件，一般由一个DICOM文件头和一个DICOM数据集合组成。
+- 2.DICOM被广泛应用于放射医疗，心血管成像以及放射诊疗诊断设备（X射线，CT，核磁共振，超声等），并且在眼科和牙科等其它医学领域得到越来越深入广泛的应用。
+- 3.详细信息的了解可以参考[这篇博客](https://www.cnblogs.com/XDU-Lakers/p/9863114.html)。
