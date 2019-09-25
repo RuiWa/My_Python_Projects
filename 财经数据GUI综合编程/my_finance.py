@@ -37,6 +37,6 @@ def retrieve_quotes_historical(stock_code):
     m = re.findall('"HistoricalPriceStore":{"prices":(.*?),"isPending"', r.text)
     if m:
         quotes = json.loads(m[0]) # 解码json数据，返回python字段的数据类型
-        quotes = quotes[::-1] # 将最近的数据放在列表quotes的最前面
+        quotes = quotes[::-1] # 将最近的数据放在列表quotes的最后面
 
     return [item for item in quotes]
